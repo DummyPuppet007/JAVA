@@ -1,0 +1,76 @@
+object means entities
+properties, object kon kon si action perfom karega, etc.. all are written in class
+
+Obj o1 = new Obj();
+
+--> because of this new keyword in memory some space is created for class's object
+obj() -> work as constructor
+
+constructor name = class name
+constructor kucj return nhi karte (no returntype)
+for one object constructor is called only once
+
+------------------------------------------------------------------------------------
+1. Polymorphism(poly - many, morph - form)
+
+koi ek kam ko alag alag tarike se karna 
+
+1. function overloading(compile time)
+2. function overriding(run time)
+
+
+1. function work differently with same name
+
+------------------------------------------------------------------------------------
+2. Inheritance (child class acess all things of parent class)
+------------------------------------------------------------------------------------
+Access Modifiers(4 type-public,private,protected,default)
+konsi chiz kisko access hogi
+
+public 
+- puri class me koi bhi access kar sakta he
+- other package also access
+
+default 
+- kisi bhi parameter/property/function ke samne kuch bhi na lagao to vo default
+- other package can't access
+
+protected
+- other package subclasses acess
+- current package access
+
+private
+- jis class ke under declare kiya whi class access kar sakti he baki koi nai
+to access private property(getter & setter)
+
+public String getPassword(){
+    return this.password;
+}
+
+public void setPassword(String pass){
+    this.password = pass;
+}
+
+in main function 
+obj.setPassword("admin123");
+obj.getPassword();
+
+------------------------------------------------------------------------------------
+3. Encapsulation
+
+- data and function ko combine kar de ek hi entity me
+------------------------------------------------------------------------------------
+4. Abstaction
+- Hiding complex implementation details
+(Ex : you press the brake and bike stop,but you don't know internal mechanism)
+
+iumplemented by 2 ways : 
+1. using Abstract classes
+2. using Interfaces
+------------------------------------------------------------------------------------
+
+static keyword :
+static un chiz ko batate he jo class ke liye common hoti he
+
+
+function overriding

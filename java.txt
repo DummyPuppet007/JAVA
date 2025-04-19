@@ -1,0 +1,44 @@
+ArrayList :
+
+array properties:
+- data stored continuous in memory
+- fixed size
+
+in arraylist
+- data non-continuous
+- variable size
+
+in array we can store primitive and objects but in arraylist only objects can store(memory heap)
+
+function :
+
+Add,Get,Modify,Delete,Iterate
+__________________________________________________________________________________________
+
+Collection Framework : 
+java ke under kuch library,interfaces,function he jo datastructure hi hote he ok usko implement karne ke liye use
+hote he
+
+methods to implement interface : 
+add,size,remove,iterate,addAll,removeAll,clear
+
+Linked List  :
+
+liist he element/node ki jo linked he
+this -> is -> a -> list 
+
+properties : 
+- variable size
+- non-contiguous memory
+- insertion in O(1)
+- search in O(n)
+
+Stack :
+
+Last In First Out structure (LIFO)
+
+Operations :
+
+Push : add element on top O(1)
+Pop : remove element from top O(1)
+Peek : get top element of stack O(1)
