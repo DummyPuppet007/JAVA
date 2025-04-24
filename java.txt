@@ -21,6 +21,7 @@ hote he
 
 methods to implement interface : 
 add,size,remove,iterate,addAll,removeAll,clear
+__________________________________________________________________________________________
 
 Linked List  :
 
@@ -32,6 +33,7 @@ properties :
 - non-contiguous memory
 - insertion in O(1)
 - search in O(n)
+__________________________________________________________________________________________
 
 Stack :
 
@@ -42,3 +44,19 @@ Operations :
 Push : add element on top O(1)
 Pop : remove element from top O(1)
 Peek : get top element of stack O(1)
+__________________________________________________________________________________________
+
+Queue : 
+
+- new element added from end
+First In First Out structure (FIFO)
+
+Operations :
+
+Enque(add) : add element O(1)
+Dequeue(remove) : remove element O(n)
+Front (peek) : what in queue front O(n)
+
+Circular Queue
+
+add, remove, peek : O(1)
