@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class HashMapCode {
@@ -25,7 +24,7 @@ public class HashMapCode {
             }
         }
 
-        private int hashFunction(K key){ // 0 to N-1
+        private int hashFunction(K key){ // 0 to N-1 
             int bucketIdx = key.hashCode();
             return Math.abs(bucketIdx) % N;
         }
